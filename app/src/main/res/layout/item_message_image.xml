@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/ivMessageImage"
+        app:riv_corner_radius="6dp"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        tools:text="Some message"
+        tools:layout_height="200dp"
+        tools:background="@drawable/chat_message_bg"/>
+</FrameLayout>
